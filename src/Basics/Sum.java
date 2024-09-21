@@ -1,4 +1,6 @@
- import java.util.Scanner;
+package Basics;
+
+import java.util.Scanner;
 public class Sum {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -9,6 +11,6 @@ public class Sum {
 
         float sum = num1 + num2;
 
-        System.out.println("Sum = " + sum);
+        System.out.println("LoopingStatements.Basics.Sum = " + sum);
     }
 }

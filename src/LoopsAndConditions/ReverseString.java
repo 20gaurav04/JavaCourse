@@ -1,3 +1,5 @@
+package LoopsAndConditions;
+
 import java.util.Scanner;
 
 public class ReverseString {
@@ -13,6 +15,6 @@ public class ReverseString {
             ch = str.charAt(i);
             nstr = ch + nstr;
         }
-        System.out.println("Reverse Of String: "+" "+nstr);
+        System.out.println("LoopingStatements.Reverse Of String: "+" "+nstr);
     }
 }

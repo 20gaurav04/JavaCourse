@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package Basics;
 
 public class Basics{
     public static void main(String[] args) {
@@ -29,7 +29,7 @@ public class Basics{
 //
 //        }
 
-//        System.out.print("Enter the number whose table you wannt to print : ");
+//        System.out.print("Enter the number whose table you want to print : ");
 //        Scanner sc = new Scanner(System.in);
 //        int n = sc.nextInt();
 //

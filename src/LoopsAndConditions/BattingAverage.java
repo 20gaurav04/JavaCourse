@@ -1,9 +1,11 @@
+package LoopsAndConditions;
+
 import java.util.Scanner;
 
 public class BattingAverage {
     public static void main(String[] args) {
         int i;
-        int average = 0;
+        int average;
         int totalRuns = 0;
         System.out.println("**BATTING AVERAGE**");
 

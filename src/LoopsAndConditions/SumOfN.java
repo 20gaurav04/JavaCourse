@@ -1,3 +1,5 @@
+package LoopsAndConditions;
+
 import java.util.Scanner;
 
 public class SumOfN {
@@ -12,6 +14,6 @@ public class SumOfN {
             int number = sc.nextInt();
             sum+=number;
         }
-        System.out.println("Sum of 10 numbers entered :"+" "+ sum);
+        System.out.println("LoopingStatements.Basics.Sum of 10 numbers entered :"+" "+ sum);
     }
 }
