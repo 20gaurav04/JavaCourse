@@ -10,7 +10,5 @@ public class Main
 
          String name = input.next();
          System.out.println(name);
-
-
      }
  }

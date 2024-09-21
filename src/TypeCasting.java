@@ -1,11 +1,12 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class TypeCasting{
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+//        Scanner input = new Scanner(System.in);
 
 //        type casting
-        int num = (int)(536.34f);
+        float a = 253.99f;
+        int num = (int)(a);
         System.out.println(num);
 
 //        automatic type promotion in expressions
@@ -16,9 +17,10 @@ public class TypeCasting{
 //        System.out.println(b);
 //
 //        byte x = 54;
-//        x=x+5;(expilict conversion required)
-
+//        int s = (int)x;
+//        s=s+5;
+//        System.out.println(s);
 //        int g = 'C';
-//        System.out.println(g);(it will print the ASCII Value of 'C');
+//        System.out.println(g);it will print the ASCII Value of 'C'
     }
 }
